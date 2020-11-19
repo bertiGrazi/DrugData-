@@ -15,13 +15,44 @@
                     <view key="view" contentMode="scaleToFill" id="gQi-aW-ZPi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XA9-Mc-Y64">
+                                <rect key="frame" x="16" y="104" width="382" height="742"/>
+                                <state key="normal" title="Pesquisar"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="tsQ-Vm-pgW"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="XA9-Mc-Y64" firstAttribute="leading" secondItem="tsQ-Vm-pgW" secondAttribute="leading" constant="16" id="K4v-OP-V1t"/>
+                            <constraint firstItem="XA9-Mc-Y64" firstAttribute="top" secondItem="tsQ-Vm-pgW" secondAttribute="top" constant="16" id="TyC-Ih-7T8"/>
+                            <constraint firstItem="tsQ-Vm-pgW" firstAttribute="bottom" secondItem="XA9-Mc-Y64" secondAttribute="bottom" constant="16" id="nFm-j3-L6f"/>
+                            <constraint firstItem="tsQ-Vm-pgW" firstAttribute="trailing" secondItem="XA9-Mc-Y64" secondAttribute="trailing" constant="16" id="x25-5n-uws"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="zNP-Iy-aQa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UpT-rF-6VQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162" y="18"/>
+            <point key="canvasLocation" x="1071.0144927536232" y="17.410714285714285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bq3-CE-loP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AsC-Xi-E6v" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Boq-7h-hVj">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="DgK-KA-CHR" kind="relationship" relationship="rootViewController" id="2Rz-BP-Lwz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Ca-kW-OEB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160.86956521739131" y="17.410714285714285"/>
         </scene>
     </scenes>
     <resources>
