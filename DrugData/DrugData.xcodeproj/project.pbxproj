@@ -24,6 +24,9 @@
 		F247408425670F0B00D18DE0 /* ControladosGeralTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F247408225670F0B00D18DE0 /* ControladosGeralTableViewCell.xib */; };
 		F247408925670FF400D18DE0 /* PesquisaLaboratorioViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F247408825670FF400D18DE0 /* PesquisaLaboratorioViewController.storyboard */; };
 		F2593DF22562E514000DCDB9 /* Localizacao.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2593DF12562E514000DCDB9 /* Localizacao.storyboard */; };
+		F2A1D7D72568069B0096FCF7 /* EditarFavoritosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A1D7D62568069B0096FCF7 /* EditarFavoritosViewController.swift */; };
+		F2A1D7EE25680AC90096FCF7 /* EditarFavortios.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A1D7ED25680AC80096FCF7 /* EditarFavortios.storyboard */; };
+		F2A1D7F3256811040096FCF7 /* LocalizacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A1D7F2256811040096FCF7 /* LocalizacaoViewController.swift */; };
 		F2D2D55B255E08110025BEF3 /* PesquisarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D2D55A255E08110025BEF3 /* PesquisarViewController.swift */; };
 		F2D2D563255E08280025BEF3 /* PesquisarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D2D562255E08280025BEF3 /* PesquisarViewController.storyboard */; };
 		F2D2D571255E0C420025BEF3 /* CategoriaViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D2D570255E0C420025BEF3 /* CategoriaViewController.storyboard */; };
@@ -85,6 +88,9 @@
 		F247408225670F0B00D18DE0 /* ControladosGeralTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ControladosGeralTableViewCell.xib; sourceTree = "<group>"; };
 		F247408825670FF400D18DE0 /* PesquisaLaboratorioViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PesquisaLaboratorioViewController.storyboard; sourceTree = "<group>"; };
 		F2593DF12562E514000DCDB9 /* Localizacao.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Localizacao.storyboard; sourceTree = "<group>"; };
+		F2A1D7D62568069B0096FCF7 /* EditarFavoritosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarFavoritosViewController.swift; sourceTree = "<group>"; };
+		F2A1D7ED25680AC80096FCF7 /* EditarFavortios.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EditarFavortios.storyboard; sourceTree = "<group>"; };
+		F2A1D7F2256811040096FCF7 /* LocalizacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizacaoViewController.swift; sourceTree = "<group>"; };
 		F2D2D55A255E08110025BEF3 /* PesquisarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesquisarViewController.swift; sourceTree = "<group>"; };
 		F2D2D562255E08280025BEF3 /* PesquisarViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PesquisarViewController.storyboard; sourceTree = "<group>"; };
 		F2D2D570255E0C420025BEF3 /* CategoriaViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CategoriaViewController.storyboard; sourceTree = "<group>"; };
@@ -257,13 +263,23 @@
 			path = TableView.Xib;
 			sourceTree = "<group>";
 		};
-		F2593DF02562E4E2000DCDB9 /* Localização */ = {
+		F2A1D7FA2568175F0096FCF7 /* Localização */ = {
 			isa = PBXGroup;
 			children = (
 				F2593DF12562E514000DCDB9 /* Localizacao.storyboard */,
+				F2A1D7F2256811040096FCF7 /* LocalizacaoViewController.swift */,
 			);
 			name = "Localização";
 			path = "Localização";
+			sourceTree = "<group>";
+		};
+		F2A1D7FC2568178D0096FCF7 /* Editar Favoritos */ = {
+			isa = PBXGroup;
+			children = (
+				F2A1D7D62568069B0096FCF7 /* EditarFavoritosViewController.swift */,
+				F2A1D7ED25680AC80096FCF7 /* EditarFavortios.storyboard */,
+			);
+			path = "Editar Favoritos";
 			sourceTree = "<group>";
 		};
 		F2D2D559255E07E10025BEF3 /* Pesquisar */ = {
@@ -298,9 +314,10 @@
 		F2D2D583255E0FD40025BEF3 /* Configuração */ = {
 			isa = PBXGroup;
 			children = (
-				F2593DF02562E4E2000DCDB9 /* Localização */,
-				F2D2D584255E0FF70025BEF3 /* ConfiguracaoViewController.swift */,
+				F2A1D7FC2568178D0096FCF7 /* Editar Favoritos */,
+				F2A1D7FA2568175F0096FCF7 /* Localização */,
 				F2D2D58C255E10030025BEF3 /* ConfiguracaoViewController.storyboard */,
+				F2D2D584255E0FF70025BEF3 /* ConfiguracaoViewController.swift */,
 			);
 			name = "Configuração";
 			path = "Configuração";
@@ -456,6 +473,7 @@
 				F247408425670F0B00D18DE0 /* ControladosGeralTableViewCell.xib in Resources */,
 				F2D2D571255E0C420025BEF3 /* CategoriaViewController.storyboard in Resources */,
 				F2DBB97A2565B8AB00A5550E /* 1.png in Resources */,
+				F2A1D7EE25680AC90096FCF7 /* EditarFavortios.storyboard in Resources */,
 				F2D2D563255E08280025BEF3 /* PesquisarViewController.storyboard in Resources */,
 				F2593DF22562E514000DCDB9 /* Localizacao.storyboard in Resources */,
 				F247408925670FF400D18DE0 /* PesquisaLaboratorioViewController.storyboard in Resources */,
@@ -487,6 +505,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F23C32A02562FCCF00F25304 /* PesquisaLaboratorioViewController.swift in Sources */,
+				F2A1D7D72568069B0096FCF7 /* EditarFavoritosViewController.swift in Sources */,
 				F23C32862562F4A500F25304 /* ResultadoPesquisaViewController.swift in Sources */,
 				F233D0A82559E99500D5CE2D /* ViewController.swift in Sources */,
 				F2E282D0255C8DAB00460304 /* CadastroViewController.swift in Sources */,
@@ -500,6 +519,7 @@
 				F2E282BB255C882800460304 /* LoginViewController.swift in Sources */,
 				F233D0A62559E99500D5CE2D /* SceneDelegate.swift in Sources */,
 				F2D2D55B255E08110025BEF3 /* PesquisarViewController.swift in Sources */,
+				F2A1D7F3256811040096FCF7 /* LocalizacaoViewController.swift in Sources */,
 				F2D2D585255E0FF70025BEF3 /* ConfiguracaoViewController.swift in Sources */,
 				F2DF0F75255C997300F43B54 /* MenuViewController.swift in Sources */,
 			);

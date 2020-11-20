@@ -35,7 +35,7 @@ class MenuViewController: UIViewController {
     }
     
     @IBAction func buttonSettings(_ sender: Any) {
-        if let settings = UIStoryboard(name: "ConfiguracaoViewController", bundle: nil).instantiateInitialViewController() as? ConfiguracaoViewController {
+        if let settings = UIStoryboard(name: "ConfiguracaoViewController", bundle: nil).instantiateInitialViewController()   {
             navigationController?.pushViewController(settings, animated: true)
         }
     }
