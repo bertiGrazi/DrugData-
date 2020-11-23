@@ -15,8 +15,8 @@ class LoginViewController: UIViewController {
         }
     }
     @IBAction func buttonLoggin(_ sender: Any) {
-        if let goToMenu = UIStoryboard(name: "MenuViewController", bundle: nil).instantiateInitialViewController() as? MenuViewController {
-            navigationController?.pushViewController(goToMenu, animated: true)
+        if let search = UIStoryboard(name: "PesquisarViewController", bundle: nil).instantiateInitialViewController() {
+            navigationController?.pushViewController(search, animated: true)
         }
     }
     override func viewDidLoad() {

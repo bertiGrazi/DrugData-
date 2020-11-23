@@ -9,22 +9,32 @@ import UIKit
 
 class PesquisarViewController: UIViewController {
 
+    
+    @IBOutlet weak var labelName: UILabel!
+    @IBOutlet weak var labelLocation: UILabel!
+    @IBOutlet weak var imageViewAvatar: UIImageView!
+    
+    
+    @IBOutlet weak var textFieldNameMedice: UITextField!
+    @IBOutlet weak var textFieldFilterSubstance: UITextField!
+    @IBOutlet weak var textFieldFilterCategory: UITextField!
+    
+    var array = [Cabecalho] ()
+    
+    func setup(dados: Cabecalho) {
+        labelName.text = dados.name
+        labelLocation.text = dados.location
+        imageViewAvatar.image = UIImage(named: "1.png")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        //ResultadoPesquisaViewController
+        setup(dados: (Cabecalho(name: "Maria", location: "São Paulo", profileImage: "1.png")))
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func buttonSearchMedice(_ sender: Any) {
+        if let search = UIStoryboard(name: "ResultadoPesquisaViewController", bundle: nil).instantiateInitialViewController() as? ResultadoPesquisaViewController{
+            navigationController?.pushViewController(search, animated: true)
+        }
     }
-    */
-
 }

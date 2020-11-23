@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Categoria View Controller-->
+        <!--Categoria-->
         <scene sceneID="xoO-RK-CcR">
             <objects>
                 <viewController id="pKm-6x-IOz" customClass="CategoriaViewController" customModule="DrugData" customModuleProvider="target" sceneMemberID="viewController">
@@ -95,7 +95,9 @@
                             <constraint firstItem="d0t-th-xZV" firstAttribute="leading" secondItem="tD8-zQ-Il7" secondAttribute="leading" constant="40" id="hr8-b8-1ho"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Categoria" image="line.horizontal.3" catalog="system" id="Mfe-AZ-fKV"/>
                     <navigationItem key="navigationItem" id="m5r-65-SPQ"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="imageViewAvatar" destination="1lS-ZI-nAD" id="huz-Oi-QVC"/>
                         <outlet property="labelLocation" destination="d0t-th-xZV" id="19x-dA-d6m"/>
@@ -126,6 +128,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
         <systemColor name="tertiarySystemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

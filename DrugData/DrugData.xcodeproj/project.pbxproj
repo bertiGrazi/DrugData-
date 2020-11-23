@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F232BBF4256B2B6B00460ADF /* LocalizacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F232BBF3256B2B6B00460ADF /* LocalizacaoViewController.swift */; };
+		F232BBFC256B2B7900460ADF /* LocalizacaoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F232BBFB256B2B7900460ADF /* LocalizacaoViewController.storyboard */; };
+		F232BC04256B30BD00460ADF /* Remedios.swift in Sources */ = {isa = PBXBuildFile; fileRef = F232BC03256B30BD00460ADF /* Remedios.swift */; };
+		F232BC0F256B323900460ADF /* NomeRemediosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F232BC0E256B323900460ADF /* NomeRemediosTableViewCell.swift */; };
+		F232BC19256B381400460ADF /* DetalhesMedicamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F232BC18256B381400460ADF /* DetalhesMedicamentoViewController.swift */; };
+		F232BC21256B382100460ADF /* DetalhesMedicamentoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F232BC20256B382100460ADF /* DetalhesMedicamentoViewController.storyboard */; };
+		F232BC2A256B391400460ADF /* DetalheMedicamentoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F232BC29256B391400460ADF /* DetalheMedicamentoTableViewCell.swift */; };
 		F233D0A42559E99500D5CE2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F233D0A32559E99500D5CE2D /* AppDelegate.swift */; };
 		F233D0A62559E99500D5CE2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F233D0A52559E99500D5CE2D /* SceneDelegate.swift */; };
 		F233D0A82559E99500D5CE2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F233D0A72559E99500D5CE2D /* ViewController.swift */; };
@@ -17,16 +24,20 @@
 		F233D0C62559E99900D5CE2D /* DrugDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F233D0C52559E99900D5CE2D /* DrugDataUITests.swift */; };
 		F233D0DC2559F3BB00D5CE2D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = F233D0DB2559F3BB00D5CE2D /* File.swift */; };
 		F233D0E52559F49100D5CE2D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F233D0E42559F49100D5CE2D /* logo.png */; };
-		F23C32812562F47700F25304 /* ResultadoPesquisa,storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23C32802562F47700F25304 /* ResultadoPesquisa,storyboard.storyboard */; };
+		F23C32812562F47700F25304 /* ResultadoPesquisaViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23C32802562F47700F25304 /* ResultadoPesquisaViewController.storyboard */; };
 		F23C32862562F4A500F25304 /* ResultadoPesquisaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23C32852562F4A500F25304 /* ResultadoPesquisaViewController.swift */; };
 		F23C32A02562FCCF00F25304 /* PesquisaLaboratorioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23C329F2562FCCF00F25304 /* PesquisaLaboratorioViewController.swift */; };
+		F23C8EDC256ACFD90094FA87 /* OrganicoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23C8EDB256ACFD90094FA87 /* OrganicoViewController.storyboard */; };
+		F23C8EE1256ACFF60094FA87 /* OrganicoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23C8EE0256ACFF60094FA87 /* OrganicoViewController.swift */; };
+		F23C8EE9256AD13F0094FA87 /* GenericoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23C8EE8256AD13F0094FA87 /* GenericoViewController.swift */; };
+		F23C8EEE256AD14D0094FA87 /* GenericoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23C8EED256AD14D0094FA87 /* GenericoViewController.storyboard */; };
+		F23C8EF5256AD2A70094FA87 /* ControladosViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23C8EF4256AD2A70094FA87 /* ControladosViewController.storyboard */; };
+		F23C8EFD256AD2EC0094FA87 /* ControladosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23C8EFC256AD2EC0094FA87 /* ControladosViewController.swift */; };
+		F23C8F0D256ADD180094FA87 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23C8F0C256ADD180094FA87 /* PerfilViewController.swift */; };
+		F23C8F15256ADD240094FA87 /* PerfilViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23C8F14256ADD240094FA87 /* PerfilViewController.storyboard */; };
 		F247408325670F0B00D18DE0 /* ControladosGeralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F247408125670F0B00D18DE0 /* ControladosGeralTableViewCell.swift */; };
 		F247408425670F0B00D18DE0 /* ControladosGeralTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F247408225670F0B00D18DE0 /* ControladosGeralTableViewCell.xib */; };
 		F247408925670FF400D18DE0 /* PesquisaLaboratorioViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F247408825670FF400D18DE0 /* PesquisaLaboratorioViewController.storyboard */; };
-		F2593DF22562E514000DCDB9 /* Localizacao.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2593DF12562E514000DCDB9 /* Localizacao.storyboard */; };
-		F2A1D7D72568069B0096FCF7 /* EditarFavoritosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A1D7D62568069B0096FCF7 /* EditarFavoritosViewController.swift */; };
-		F2A1D7EE25680AC90096FCF7 /* EditarFavortios.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A1D7ED25680AC80096FCF7 /* EditarFavortios.storyboard */; };
-		F2A1D7F3256811040096FCF7 /* LocalizacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A1D7F2256811040096FCF7 /* LocalizacaoViewController.swift */; };
 		F2D2D55B255E08110025BEF3 /* PesquisarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D2D55A255E08110025BEF3 /* PesquisarViewController.swift */; };
 		F2D2D563255E08280025BEF3 /* PesquisarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D2D562255E08280025BEF3 /* PesquisarViewController.storyboard */; };
 		F2D2D571255E0C420025BEF3 /* CategoriaViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D2D570255E0C420025BEF3 /* CategoriaViewController.storyboard */; };
@@ -45,6 +56,8 @@
 		F2E282C0255C89BB00460304 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E282BF255C89BB00460304 /* LoginViewController.storyboard */; };
 		F2E282D0255C8DAB00460304 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E282CF255C8DAB00460304 /* CadastroViewController.swift */; };
 		F2E282D8255C8DBD00460304 /* CadastroViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E282D7255C8DBD00460304 /* CadastroViewController.storyboard */; };
+		F2FB0A1D2568544E0034F0C9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FB0A1C2568544D0034F0C9 /* Home.storyboard */; };
+		F2FB0A22256854630034F0C9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB0A21256854630034F0C9 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +78,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F232BBF3256B2B6B00460ADF /* LocalizacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizacaoViewController.swift; sourceTree = "<group>"; };
+		F232BBFB256B2B7900460ADF /* LocalizacaoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LocalizacaoViewController.storyboard; sourceTree = "<group>"; };
+		F232BC03256B30BD00460ADF /* Remedios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remedios.swift; sourceTree = "<group>"; };
+		F232BC0E256B323900460ADF /* NomeRemediosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomeRemediosTableViewCell.swift; sourceTree = "<group>"; };
+		F232BC18256B381400460ADF /* DetalhesMedicamentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesMedicamentoViewController.swift; sourceTree = "<group>"; };
+		F232BC20256B382100460ADF /* DetalhesMedicamentoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetalhesMedicamentoViewController.storyboard; sourceTree = "<group>"; };
+		F232BC29256B391400460ADF /* DetalheMedicamentoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheMedicamentoTableViewCell.swift; sourceTree = "<group>"; };
 		F233D0A02559E99500D5CE2D /* DrugData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrugData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F233D0A32559E99500D5CE2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F233D0A52559E99500D5CE2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,16 +101,20 @@
 		F233D0C72559E99900D5CE2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F233D0DB2559F3BB00D5CE2D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		F233D0E42559F49100D5CE2D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		F23C32802562F47700F25304 /* ResultadoPesquisa,storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "ResultadoPesquisa,storyboard.storyboard"; sourceTree = "<group>"; };
+		F23C32802562F47700F25304 /* ResultadoPesquisaViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResultadoPesquisaViewController.storyboard; sourceTree = "<group>"; };
 		F23C32852562F4A500F25304 /* ResultadoPesquisaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultadoPesquisaViewController.swift; sourceTree = "<group>"; };
 		F23C329F2562FCCF00F25304 /* PesquisaLaboratorioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesquisaLaboratorioViewController.swift; sourceTree = "<group>"; };
+		F23C8EDB256ACFD90094FA87 /* OrganicoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OrganicoViewController.storyboard; sourceTree = "<group>"; };
+		F23C8EE0256ACFF60094FA87 /* OrganicoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganicoViewController.swift; sourceTree = "<group>"; };
+		F23C8EE8256AD13F0094FA87 /* GenericoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericoViewController.swift; sourceTree = "<group>"; };
+		F23C8EED256AD14D0094FA87 /* GenericoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GenericoViewController.storyboard; sourceTree = "<group>"; };
+		F23C8EF4256AD2A70094FA87 /* ControladosViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ControladosViewController.storyboard; sourceTree = "<group>"; };
+		F23C8EFC256AD2EC0094FA87 /* ControladosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControladosViewController.swift; sourceTree = "<group>"; };
+		F23C8F0C256ADD180094FA87 /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		F23C8F14256ADD240094FA87 /* PerfilViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PerfilViewController.storyboard; sourceTree = "<group>"; };
 		F247408125670F0B00D18DE0 /* ControladosGeralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControladosGeralTableViewCell.swift; sourceTree = "<group>"; };
 		F247408225670F0B00D18DE0 /* ControladosGeralTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ControladosGeralTableViewCell.xib; sourceTree = "<group>"; };
 		F247408825670FF400D18DE0 /* PesquisaLaboratorioViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PesquisaLaboratorioViewController.storyboard; sourceTree = "<group>"; };
-		F2593DF12562E514000DCDB9 /* Localizacao.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Localizacao.storyboard; sourceTree = "<group>"; };
-		F2A1D7D62568069B0096FCF7 /* EditarFavoritosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarFavoritosViewController.swift; sourceTree = "<group>"; };
-		F2A1D7ED25680AC80096FCF7 /* EditarFavortios.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EditarFavortios.storyboard; sourceTree = "<group>"; };
-		F2A1D7F2256811040096FCF7 /* LocalizacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizacaoViewController.swift; sourceTree = "<group>"; };
 		F2D2D55A255E08110025BEF3 /* PesquisarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesquisarViewController.swift; sourceTree = "<group>"; };
 		F2D2D562255E08280025BEF3 /* PesquisarViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PesquisarViewController.storyboard; sourceTree = "<group>"; };
 		F2D2D570255E0C420025BEF3 /* CategoriaViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CategoriaViewController.storyboard; sourceTree = "<group>"; };
@@ -109,6 +133,8 @@
 		F2E282BF255C89BB00460304 /* LoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
 		F2E282CF255C8DAB00460304 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 		F2E282D7255C8DBD00460304 /* CadastroViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CadastroViewController.storyboard; sourceTree = "<group>"; };
+		F2FB0A1C2568544D0034F0C9 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		F2FB0A21256854630034F0C9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +162,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F232BBF2256B2B4900460ADF /* Localização */ = {
+			isa = PBXGroup;
+			children = (
+				F232BBF3256B2B6B00460ADF /* LocalizacaoViewController.swift */,
+				F232BBFB256B2B7900460ADF /* LocalizacaoViewController.storyboard */,
+			);
+			name = "Localização";
+			path = "Localizaçã0";
+			sourceTree = "<group>";
+		};
+		F232BC13256B326500460ADF /* Cell-Nome Do Medicamento */ = {
+			isa = PBXGroup;
+			children = (
+				F232BC0E256B323900460ADF /* NomeRemediosTableViewCell.swift */,
+			);
+			path = "Cell-Nome Do Medicamento";
+			sourceTree = "<group>";
+		};
+		F232BC17256B37E700460ADF /* DetalhesMedicamento */ = {
+			isa = PBXGroup;
+			children = (
+				F232BC25256B388A00460ADF /* Cell - Detalhe do Medicamento */,
+				F232BC18256B381400460ADF /* DetalhesMedicamentoViewController.swift */,
+				F232BC20256B382100460ADF /* DetalhesMedicamentoViewController.storyboard */,
+			);
+			path = DetalhesMedicamento;
+			sourceTree = "<group>";
+		};
+		F232BC25256B388A00460ADF /* Cell - Detalhe do Medicamento */ = {
+			isa = PBXGroup;
+			children = (
+				F232BC29256B391400460ADF /* DetalheMedicamentoTableViewCell.swift */,
+			);
+			path = "Cell - Detalhe do Medicamento";
+			sourceTree = "<group>";
+		};
+		F232BC2E256B392B00460ADF /* Main  */ = {
+			isa = PBXGroup;
+			children = (
+				F23C32802562F47700F25304 /* ResultadoPesquisaViewController.storyboard */,
+				F23C32852562F4A500F25304 /* ResultadoPesquisaViewController.swift */,
+			);
+			path = "Main ";
+			sourceTree = "<group>";
+		};
 		F233D0972559E99500D5CE2D = {
 			isa = PBXGroup;
 			children = (
@@ -170,12 +241,17 @@
 				F2DF0F62255C926600F43B54 /* Esqueceu a senha */,
 				F2E282CE255C8CE800460304 /* Cadastrar */,
 				F2DF0F70255C98FB00F43B54 /* Menu */,
+				F23C8F0B256ADCF40094FA87 /* Perfil */,
 				F2D2D559255E07E10025BEF3 /* Pesquisar */,
 				F2D2D567255E0C020025BEF3 /* Categoria */,
 				F2D2D575255E0F330025BEF3 /* Favoritos */,
 				F2D2D583255E0FD40025BEF3 /* Configuração */,
+				F232BBF2256B2B4900460ADF /* Localização */,
 				F23C32A42562FFC000F25304 /* Extenssões */,
+				F232BC03256B30BD00460ADF /* Remedios.swift */,
 				F2DBB9742565B5D100A5550E /* Cabecalho.swift */,
+				F2FB0A1C2568544D0034F0C9 /* Home.storyboard */,
+				F2FB0A21256854630034F0C9 /* HomeViewController.swift */,
 			);
 			path = DrugData;
 			sourceTree = "<group>";
@@ -229,8 +305,9 @@
 		F23C327F2562F45900F25304 /* ResultadoPesquisa */ = {
 			isa = PBXGroup;
 			children = (
-				F23C32802562F47700F25304 /* ResultadoPesquisa,storyboard.storyboard */,
-				F23C32852562F4A500F25304 /* ResultadoPesquisaViewController.swift */,
+				F232BC17256B37E700460ADF /* DetalhesMedicamento */,
+				F232BC2E256B392B00460ADF /* Main  */,
+				F232BC13256B326500460ADF /* Cell-Nome Do Medicamento */,
 			);
 			path = ResultadoPesquisa;
 			sourceTree = "<group>";
@@ -254,6 +331,44 @@
 			path = "Extenssões";
 			sourceTree = "<group>";
 		};
+		F23C8ECF256ACF330094FA87 /* Orgânico */ = {
+			isa = PBXGroup;
+			children = (
+				F23C8EDB256ACFD90094FA87 /* OrganicoViewController.storyboard */,
+				F23C8EE0256ACFF60094FA87 /* OrganicoViewController.swift */,
+			);
+			name = "Orgânico";
+			path = "Orgânico";
+			sourceTree = "<group>";
+		};
+		F23C8ED1256ACF4F0094FA87 /* Genérico */ = {
+			isa = PBXGroup;
+			children = (
+				F23C8EE8256AD13F0094FA87 /* GenericoViewController.swift */,
+				F23C8EED256AD14D0094FA87 /* GenericoViewController.storyboard */,
+			);
+			name = "Genérico";
+			path = "Genérico";
+			sourceTree = "<group>";
+		};
+		F23C8EF3256AD28E0094FA87 /* Controlados */ = {
+			isa = PBXGroup;
+			children = (
+				F23C8EF4256AD2A70094FA87 /* ControladosViewController.storyboard */,
+				F23C8EFC256AD2EC0094FA87 /* ControladosViewController.swift */,
+			);
+			path = Controlados;
+			sourceTree = "<group>";
+		};
+		F23C8F0B256ADCF40094FA87 /* Perfil */ = {
+			isa = PBXGroup;
+			children = (
+				F23C8F0C256ADD180094FA87 /* PerfilViewController.swift */,
+				F23C8F14256ADD240094FA87 /* PerfilViewController.storyboard */,
+			);
+			path = Perfil;
+			sourceTree = "<group>";
+		};
 		F247408D2567100500D18DE0 /* TableView.Xib */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,25 +376,6 @@
 				F247408225670F0B00D18DE0 /* ControladosGeralTableViewCell.xib */,
 			);
 			path = TableView.Xib;
-			sourceTree = "<group>";
-		};
-		F2A1D7FA2568175F0096FCF7 /* Localização */ = {
-			isa = PBXGroup;
-			children = (
-				F2593DF12562E514000DCDB9 /* Localizacao.storyboard */,
-				F2A1D7F2256811040096FCF7 /* LocalizacaoViewController.swift */,
-			);
-			name = "Localização";
-			path = "Localização";
-			sourceTree = "<group>";
-		};
-		F2A1D7FC2568178D0096FCF7 /* Editar Favoritos */ = {
-			isa = PBXGroup;
-			children = (
-				F2A1D7D62568069B0096FCF7 /* EditarFavoritosViewController.swift */,
-				F2A1D7ED25680AC80096FCF7 /* EditarFavortios.storyboard */,
-			);
-			path = "Editar Favoritos";
 			sourceTree = "<group>";
 		};
 		F2D2D559255E07E10025BEF3 /* Pesquisar */ = {
@@ -295,6 +391,9 @@
 		F2D2D567255E0C020025BEF3 /* Categoria */ = {
 			isa = PBXGroup;
 			children = (
+				F23C8EF3256AD28E0094FA87 /* Controlados */,
+				F23C8ED1256ACF4F0094FA87 /* Genérico */,
+				F23C8ECF256ACF330094FA87 /* Orgânico */,
 				F23C328A2562F59F00F25304 /* Laboratório */,
 				F2D2D570255E0C420025BEF3 /* CategoriaViewController.storyboard */,
 				F2DBB96F2565B1BF00A5550E /* CategoriaViewController.swift */,
@@ -314,8 +413,6 @@
 		F2D2D583255E0FD40025BEF3 /* Configuração */ = {
 			isa = PBXGroup;
 			children = (
-				F2A1D7FC2568178D0096FCF7 /* Editar Favoritos */,
-				F2A1D7FA2568175F0096FCF7 /* Localização */,
 				F2D2D58C255E10030025BEF3 /* ConfiguracaoViewController.storyboard */,
 				F2D2D584255E0FF70025BEF3 /* ConfiguracaoViewController.swift */,
 			);
@@ -463,9 +560,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2D2D58D255E10030025BEF3 /* ConfiguracaoViewController.storyboard in Resources */,
-				F23C32812562F47700F25304 /* ResultadoPesquisa,storyboard.storyboard in Resources */,
+				F23C32812562F47700F25304 /* ResultadoPesquisaViewController.storyboard in Resources */,
+				F23C8EF5256AD2A70094FA87 /* ControladosViewController.storyboard in Resources */,
 				F2DF0F7A255C998400F43B54 /* MenuViewController.storyboard in Resources */,
 				F2E282D8255C8DBD00460304 /* CadastroViewController.storyboard in Resources */,
+				F2FB0A1D2568544E0034F0C9 /* Home.storyboard in Resources */,
+				F23C8EEE256AD14D0094FA87 /* GenericoViewController.storyboard in Resources */,
 				F2D2D57F255E0F800025BEF3 /* FavoritosViewController.storyboard in Resources */,
 				F2DF0F6C255C92B600F43B54 /* EsqueceuASenhaViewController.storyboard in Resources */,
 				F233D0E52559F49100D5CE2D /* logo.png in Resources */,
@@ -473,12 +573,14 @@
 				F247408425670F0B00D18DE0 /* ControladosGeralTableViewCell.xib in Resources */,
 				F2D2D571255E0C420025BEF3 /* CategoriaViewController.storyboard in Resources */,
 				F2DBB97A2565B8AB00A5550E /* 1.png in Resources */,
-				F2A1D7EE25680AC90096FCF7 /* EditarFavortios.storyboard in Resources */,
+				F232BC21256B382100460ADF /* DetalhesMedicamentoViewController.storyboard in Resources */,
 				F2D2D563255E08280025BEF3 /* PesquisarViewController.storyboard in Resources */,
-				F2593DF22562E514000DCDB9 /* Localizacao.storyboard in Resources */,
 				F247408925670FF400D18DE0 /* PesquisaLaboratorioViewController.storyboard in Resources */,
 				F233D0AD2559E99900D5CE2D /* Assets.xcassets in Resources */,
 				F2E282C0255C89BB00460304 /* LoginViewController.storyboard in Resources */,
+				F232BBFC256B2B7900460ADF /* LocalizacaoViewController.storyboard in Resources */,
+				F23C8EDC256ACFD90094FA87 /* OrganicoViewController.storyboard in Resources */,
+				F23C8F15256ADD240094FA87 /* PerfilViewController.storyboard in Resources */,
 				F233D0AB2559E99500D5CE2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,23 +607,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				F23C32A02562FCCF00F25304 /* PesquisaLaboratorioViewController.swift in Sources */,
-				F2A1D7D72568069B0096FCF7 /* EditarFavoritosViewController.swift in Sources */,
 				F23C32862562F4A500F25304 /* ResultadoPesquisaViewController.swift in Sources */,
 				F233D0A82559E99500D5CE2D /* ViewController.swift in Sources */,
+				F2FB0A22256854630034F0C9 /* HomeViewController.swift in Sources */,
+				F232BC2A256B391400460ADF /* DetalheMedicamentoTableViewCell.swift in Sources */,
 				F2E282D0255C8DAB00460304 /* CadastroViewController.swift in Sources */,
 				F247408325670F0B00D18DE0 /* ControladosGeralTableViewCell.swift in Sources */,
 				F2DBB9752565B5D100A5550E /* Cabecalho.swift in Sources */,
 				F2DBB9702565B1BF00A5550E /* CategoriaViewController.swift in Sources */,
+				F23C8EE1256ACFF60094FA87 /* OrganicoViewController.swift in Sources */,
 				F2DF0F64255C92A500F43B54 /* EsqueceuASenhaViewController.swift in Sources */,
+				F23C8EE9256AD13F0094FA87 /* GenericoViewController.swift in Sources */,
+				F232BC04256B30BD00460ADF /* Remedios.swift in Sources */,
 				F233D0DC2559F3BB00D5CE2D /* File.swift in Sources */,
+				F23C8F0D256ADD180094FA87 /* PerfilViewController.swift in Sources */,
 				F2D2D577255E0F510025BEF3 /* FavoritosViewController.swift in Sources */,
 				F233D0A42559E99500D5CE2D /* AppDelegate.swift in Sources */,
 				F2E282BB255C882800460304 /* LoginViewController.swift in Sources */,
+				F232BC19256B381400460ADF /* DetalhesMedicamentoViewController.swift in Sources */,
 				F233D0A62559E99500D5CE2D /* SceneDelegate.swift in Sources */,
 				F2D2D55B255E08110025BEF3 /* PesquisarViewController.swift in Sources */,
-				F2A1D7F3256811040096FCF7 /* LocalizacaoViewController.swift in Sources */,
 				F2D2D585255E0FF70025BEF3 /* ConfiguracaoViewController.swift in Sources */,
+				F232BC0F256B323900460ADF /* NomeRemediosTableViewCell.swift in Sources */,
 				F2DF0F75255C997300F43B54 /* MenuViewController.swift in Sources */,
+				F23C8EFD256AD2EC0094FA87 /* ControladosViewController.swift in Sources */,
+				F232BBF4256B2B6B00460ADF /* LocalizacaoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

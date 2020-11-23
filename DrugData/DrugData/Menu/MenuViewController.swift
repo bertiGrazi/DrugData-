@@ -17,19 +17,19 @@ class MenuViewController: UIViewController {
     }
    
     @IBAction func buttonSearch(_ sender: Any) {
-        if let search = UIStoryboard(name: "PesquisarViewController", bundle: nil).instantiateInitialViewController() as? PesquisarViewController {
+        if let search = UIStoryboard(name: "PesquisarViewController", bundle: nil).instantiateInitialViewController() {
             navigationController?.pushViewController(search, animated: true)
         }
     }
     
     @IBAction func buttonCategory(_ sender: Any) {
-        if let category = UIStoryboard(name: "CategoriaViewController", bundle: nil).instantiateInitialViewController() as? CategoriaViewController {
+        if let category = UIStoryboard(name: "CategoriaViewController", bundle: nil).instantiateInitialViewController()  {
             navigationController?.pushViewController(category, animated: true)
         }
     }
     
     @IBAction func buttonFavorites(_ sender: Any) {
-        if let favorites = UIStoryboard(name: "FavoritosViewController", bundle: nil).instantiateInitialViewController() as? FavoritosViewController {
+        if let favorites = UIStoryboard(name: "FavoritosViewController", bundle: nil).instantiateInitialViewController() {
             navigationController?.pushViewController(favorites, animated: true)
         }
     }

@@ -1,5 +1,5 @@
 //
-//  FavoritosViewController.swift
+//  HomeViewController.swift
 //  DrugData
 //
 //  Created by Grazi Berti on 20/11/20.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class EditarFavoritosViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

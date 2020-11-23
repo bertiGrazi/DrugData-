@@ -1,20 +1,21 @@
 //
-//  FavoritosViewController.swift
+//  PerfilViewController.swift
 //  DrugData
 //
-//  Created by Grazi Berti on 12/11/20.
+//  Created by Grazi Berti on 22/11/20.
 //
 
 import UIKit
 
-class FavoritosViewController: UIViewController {
+class PerfilViewController: UIViewController {
 
+    @IBOutlet weak var viewBlue: UIView!
+    @IBOutlet weak var imageViewAvatar: UIImageView!
     @IBOutlet weak var labelName: UILabel!
     @IBOutlet weak var labelLocation: UILabel!
-    @IBOutlet weak var imageViewAvatar: UIImageView!
-    @IBOutlet weak var tableViewFavoritos: UITableView!
     
     var array = [Cabecalho] ()
+    
     func setup(dados: Cabecalho) {
         labelName.text = dados.name
         labelLocation.text = dados.location
@@ -23,8 +24,10 @@ class FavoritosViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        setup(dados: (Cabecalho(name: "Maria", location: "São Paulo", profileImage: "1.png")) )
+
+        setup(dados: (Cabecalho(name: "Maria", location: "São Paulo - SP", profileImage: "1.png")))
     }
+    
+
+   
 }

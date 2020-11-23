@@ -12,10 +12,12 @@ class Cabecalho {
     var name: String
     var location: String
     var profileImage: String
+    
     init(name: String, location: String, profileImage: String) {
         self.name = name
         self.location = location
         self.profileImage = profileImage
+       
         
     }
 }
