@@ -3,7 +3,6 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,13 +19,10 @@
                                 <rect key="frame" x="87" y="253" width="240" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="db9-JB-sch">
-                                <rect key="frame" x="230" y="760" width="164" height="30"/>
-                                <color key="backgroundColor" name="AccentColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="EkG-vH-FOJ"/>
-                                    <constraint firstAttribute="width" constant="164" id="kZa-46-zMx"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="db9-JB-sch">
+                                <rect key="frame" x="230" y="749" width="164" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.3396307328" green="0.45141534750000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="CADASTRAR">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -34,12 +30,11 @@
                                     <action selector="buttonRegister:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Est-1K-zrz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WVR-kl-pP2">
-                                <rect key="frame" x="20" y="760" width="163" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WVR-kl-pP2">
+                                <rect key="frame" x="20" y="749" width="163" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="163" id="jW0-Ia-vEl"/>
-                                </constraints>
+                                <color key="tintColor" red="0.3396307328" green="0.45141534750000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="LOG IN ">
                                     <color key="titleShadowColor" red="0.057411790990000003" green="0.0048738445080000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -58,14 +53,8 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="db9-JB-sch" secondAttribute="bottom" constant="72" id="1Vp-DT-RRP"/>
-                            <constraint firstItem="WVR-kl-pP2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5pk-B6-7Fs"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="db9-JB-sch" secondAttribute="trailing" constant="20" id="KkV-OT-4jS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WVR-kl-pP2" secondAttribute="bottom" constant="72" id="Maw-6T-NLO"/>
-                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="9or-Rr-D6r"/>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="9or-Rr-D6r"/>
                     <connections>
                         <outlet property="imageViewLogo" destination="7FU-T4-3Vt" id="5mC-XQ-kz5"/>
                     </connections>
@@ -113,9 +102,4 @@
             <point key="canvasLocation" x="1839.1304347826087" y="77.678571428571431"/>
         </scene>
     </scenes>
-    <resources>
-        <namedColor name="AccentColor">
-            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-    </resources>
 </document>

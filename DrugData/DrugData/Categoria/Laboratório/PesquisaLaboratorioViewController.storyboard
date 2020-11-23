@@ -54,7 +54,7 @@
                         <outlet property="labelLocation" destination="eDh-Xz-2ps" id="JZT-Vy-mUk"/>
                         <outlet property="labelName" destination="See-mS-vG9" id="I10-wd-209"/>
                         <outlet property="searchBarLaboratory" destination="KGd-sU-Ci8" id="ElH-OC-dEg"/>
-                        <outlet property="tableViewLaboratory" destination="ct2-PQ-pId" id="Exz-2n-GdA"/>
+                        <outlet property="tableViewLaboratory" destination="ct2-PQ-pId" id="6qZ-Z7-K2M"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u1r-j1-0yI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

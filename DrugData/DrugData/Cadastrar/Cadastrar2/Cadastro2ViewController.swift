@@ -1,13 +1,13 @@
 //
-//  CadastroViewController.swift
+//  Cadastro2ViewController.swift
 //  DrugData
 //
-//  Created by Grazi Berti on 11/11/20.
+//  Created by Grazi Berti on 23/11/20.
 //
 
 import UIKit
 
-class CadastroViewController: UIViewController {
+class Cadastro2ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

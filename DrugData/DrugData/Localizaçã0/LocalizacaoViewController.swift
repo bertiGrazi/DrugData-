@@ -13,13 +13,14 @@ class LocalizacaoViewController: UIViewController {
     @IBOutlet weak var imageViewAvatar: UIImageView!
     @IBOutlet weak var labelName: UILabel!
     @IBOutlet weak var labelLocation: UILabel!
-    
+    @IBOutlet weak var imageViewMap: UIImageView!
     var array = [Cabecalho] ()
     
     func setup(dados: Cabecalho) {
         labelName.text = dados.name
         labelLocation.text = dados.location
         imageViewAvatar.image = UIImage(named: "1.png")
+        imageViewMap.image = UIImage(named: "mapa.png")
     }
     
     override func viewDidLoad() {

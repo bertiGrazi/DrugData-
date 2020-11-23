@@ -9,21 +9,14 @@ import UIKit
 
 class EsqueceuASenhaViewController: UIViewController {
 
+    @IBOutlet weak var labelPasswordText: UILabel!
+    var text: String = "CASO ESTEJA CADASTRADO EM NOSSO SISTEMA, RECEBERA EM INSTANTES UM EMAIL PARA CONFIGURAR UMA NOVA SENHA."
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        labelPasswordText.text = text
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
 
 }

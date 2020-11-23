@@ -55,13 +55,29 @@
                                     <constraint firstItem="jgU-z8-qz9" firstAttribute="centerX" secondItem="h4g-Do-qjQ" secondAttribute="centerX" id="ynR-ta-swq"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FARMÁCIAS MAIS PRÓXIMA DE VOCÊ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dtv-8q-2Bg">
+                                <rect key="frame" x="20" y="370" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.3396307328" green="0.45141534750000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dbA-26-6qP">
+                                <rect key="frame" x="0.0" y="408" width="414" height="405"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oSm-oW-Rka"/>
                         <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Ddu-SO-sP1" firstAttribute="top" secondItem="MLA-ZU-vr0" secondAttribute="top" id="8B8-dx-dLo"/>
                             <constraint firstItem="Ddu-SO-sP1" firstAttribute="leading" secondItem="MLA-ZU-vr0" secondAttribute="leading" id="D7D-L6-Kg4"/>
+                            <constraint firstItem="Dtv-8q-2Bg" firstAttribute="top" secondItem="Ddu-SO-sP1" secondAttribute="bottom" constant="19" id="FKa-PX-lkX"/>
                             <constraint firstAttribute="trailing" secondItem="Ddu-SO-sP1" secondAttribute="trailing" id="LdX-1A-77X"/>
+                            <constraint firstItem="oSm-oW-Rka" firstAttribute="bottom" secondItem="dbA-26-6qP" secondAttribute="bottom" id="nLJ-WY-kBG"/>
+                            <constraint firstItem="dbA-26-6qP" firstAttribute="leading" secondItem="oSm-oW-Rka" secondAttribute="leading" id="oPh-FH-1wh"/>
+                            <constraint firstItem="dbA-26-6qP" firstAttribute="top" secondItem="Dtv-8q-2Bg" secondAttribute="bottom" constant="17" id="pxK-qa-4YN"/>
+                            <constraint firstItem="oSm-oW-Rka" firstAttribute="trailing" secondItem="dbA-26-6qP" secondAttribute="trailing" id="qvh-yQ-Rad"/>
+                            <constraint firstItem="oSm-oW-Rka" firstAttribute="trailing" secondItem="Dtv-8q-2Bg" secondAttribute="trailing" constant="20" id="sCe-Ah-TA5"/>
+                            <constraint firstItem="Dtv-8q-2Bg" firstAttribute="leading" secondItem="oSm-oW-Rka" secondAttribute="leading" constant="20" id="tMu-zb-5E8"/>
                             <constraint firstItem="oSm-oW-Rka" firstAttribute="bottom" secondItem="Ddu-SO-sP1" secondAttribute="bottom" constant="462" id="uNm-YY-dnZ"/>
                         </constraints>
                     </view>
@@ -69,6 +85,7 @@
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="imageViewAvatar" destination="1Df-PQ-zes" id="wE4-XU-sYM"/>
+                        <outlet property="imageViewMap" destination="dbA-26-6qP" id="jAC-L2-VAG"/>
                         <outlet property="labelLocation" destination="h4g-Do-qjQ" id="BqJ-aH-GAR"/>
                         <outlet property="labelName" destination="jgU-z8-qz9" id="Of5-iq-LQw"/>
                         <outlet property="viewBlue" destination="Ddu-SO-sP1" id="S7O-e2-jiM"/>

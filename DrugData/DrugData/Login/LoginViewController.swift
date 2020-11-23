@@ -9,6 +9,8 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
+    @IBOutlet weak var textFieldEmail: UITextField!
+    @IBOutlet weak var textFieldPassword: UITextField!
     @IBAction func buttonForgotPassword(_ sender: Any) {
         if let forgotPassword = UIStoryboard(name: "EsqueceuASenhaViewController", bundle: nil).instantiateInitialViewController() as? EsqueceuASenhaViewController {
             navigationController?.pushViewController(forgotPassword, animated: true)
@@ -18,6 +20,10 @@ class LoginViewController: UIViewController {
         if let search = UIStoryboard(name: "PesquisarViewController", bundle: nil).instantiateInitialViewController() {
             navigationController?.pushViewController(search, animated: true)
         }
+    }
+    @IBAction func buttonEmail(_ sender: Any) {
+    }
+    @IBAction func buttonPassword(_ sender: Any) {
     }
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -13,7 +13,7 @@ class PesquisaLaboratorioViewController: UIViewController {
     @IBOutlet weak var labelLocation: UILabel!
     @IBOutlet weak var imageViewAvatar: UIImageView!
     @IBOutlet weak var searchBarLaboratory: UISearchBar!
-    @IBOutlet weak var tableViewSearch: UITableView!
+    @IBOutlet weak var tableViewLaboratory: UITableView!
     
     var array = [Cabecalho] ()
     func setup(dados: Cabecalho) {

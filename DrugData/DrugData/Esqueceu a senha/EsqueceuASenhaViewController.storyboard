@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="c3j-nL-lq9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="c3j-nL-lq9">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -15,18 +14,82 @@
                     <view key="view" contentMode="scaleToFill" id="mee-UT-KLG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ESQUECEU A SENHA? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yoT-go-sSW">
+                                <rect key="frame" x="32" y="96" width="382" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="0.3396307328" green="0.45141534750000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AK1-oV-RxD">
+                                <rect key="frame" x="32" y="485" width="342" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5V3-9g-Mdw">
+                                <rect key="frame" x="36" y="162" width="342" height="166"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="342" id="QWU-sz-Ywb"/>
+                                    <constraint firstAttribute="height" constant="166" id="qcg-bB-Ldq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="DIGITE AQUI SEU E-MAIL " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JQZ-c5-oEd">
+                                <rect key="frame" x="40" y="387" width="334" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebX-lb-20K">
+                                <rect key="frame" x="345" y="393" width="23" height="22"/>
+                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="envelope.fill" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPJ-0K-Ept">
+                                <rect key="frame" x="40" y="761" width="328" height="41"/>
+                                <color key="backgroundColor" red="0.3396307328" green="0.45141534750000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="Nf5-ji-gyv"/>
+                                    <constraint firstAttribute="width" constant="328" id="evb-vj-wsy"/>
+                                </constraints>
+                                <state key="normal" title="ENVIAR ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Szk-VJ-4h7"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yoT-go-sSW" firstAttribute="top" secondItem="Szk-VJ-4h7" secondAttribute="top" constant="52" id="40J-9F-XF4"/>
+                            <constraint firstItem="JQZ-c5-oEd" firstAttribute="top" secondItem="5V3-9g-Mdw" secondAttribute="bottom" constant="59" id="4iL-8D-sfC"/>
+                            <constraint firstItem="5V3-9g-Mdw" firstAttribute="leading" secondItem="Szk-VJ-4h7" secondAttribute="leading" constant="36" id="7XG-I9-oy2"/>
+                            <constraint firstItem="Szk-VJ-4h7" firstAttribute="trailing" secondItem="5V3-9g-Mdw" secondAttribute="trailing" constant="36" id="BWC-60-nWY"/>
+                            <constraint firstItem="yoT-go-sSW" firstAttribute="leading" secondItem="Szk-VJ-4h7" secondAttribute="leading" constant="32" id="CQ0-Be-joi"/>
+                            <constraint firstItem="yoT-go-sSW" firstAttribute="trailing" secondItem="Szk-VJ-4h7" secondAttribute="trailing" id="GQA-I0-FYo"/>
+                            <constraint firstItem="Szk-VJ-4h7" firstAttribute="bottom" secondItem="aPJ-0K-Ept" secondAttribute="bottom" constant="60" id="SNj-Lm-tQW"/>
+                            <constraint firstItem="ebX-lb-20K" firstAttribute="leading" secondItem="Szk-VJ-4h7" secondAttribute="leading" constant="345" id="Vsc-bK-8VV"/>
+                            <constraint firstItem="aPJ-0K-Ept" firstAttribute="top" secondItem="AK1-oV-RxD" secondAttribute="bottom" constant="276" id="X90-DD-4sr"/>
+                            <constraint firstItem="Szk-VJ-4h7" firstAttribute="trailing" secondItem="aPJ-0K-Ept" secondAttribute="trailing" constant="46" id="XdI-3H-ruT"/>
+                            <constraint firstItem="aPJ-0K-Ept" firstAttribute="leading" secondItem="Szk-VJ-4h7" secondAttribute="leading" constant="40" id="ZZP-pQ-mLz"/>
+                            <constraint firstItem="ebX-lb-20K" firstAttribute="top" secondItem="5V3-9g-Mdw" secondAttribute="bottom" constant="65" id="ZlM-gU-WAM"/>
+                            <constraint firstItem="5V3-9g-Mdw" firstAttribute="top" secondItem="yoT-go-sSW" secondAttribute="bottom" constant="23" id="aeg-sV-gUb"/>
+                            <constraint firstItem="Szk-VJ-4h7" firstAttribute="trailing" secondItem="JQZ-c5-oEd" secondAttribute="trailing" constant="40" id="v3p-XU-HT8"/>
+                            <constraint firstItem="JQZ-c5-oEd" firstAttribute="leading" secondItem="Szk-VJ-4h7" secondAttribute="leading" constant="40" id="wQU-aa-7Cm"/>
+                            <constraint firstItem="Szk-VJ-4h7" firstAttribute="trailing" secondItem="ebX-lb-20K" secondAttribute="trailing" constant="46" id="yf4-j9-KB6"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="labelPasswordText" destination="5V3-9g-Mdw" id="6vw-6O-dGB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="51V-CK-3jE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="78"/>
+            <point key="canvasLocation" x="18.840579710144929" y="77.678571428571431"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
+        <image name="envelope.fill" catalog="system" width="128" height="93"/>
     </resources>
 </document>
