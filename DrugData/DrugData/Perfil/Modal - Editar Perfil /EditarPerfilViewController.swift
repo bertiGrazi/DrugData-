@@ -15,5 +15,8 @@ class EditarPerfilViewController: UIViewController {
         
     }
     
-
+    @IBAction func buttonSaveEdit(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
 }

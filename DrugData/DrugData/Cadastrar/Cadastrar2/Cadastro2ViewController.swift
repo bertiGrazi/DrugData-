@@ -9,6 +9,7 @@ import UIKit
 
 class Cadastro2ViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,6 +17,11 @@ class Cadastro2ViewController: UIViewController {
     }
     
 
+    @IBAction func buttonRegister(_ sender: Any) {
+        if let nextRegister = UIStoryboard(name: "AvatarViewController", bundle: nil).instantiateInitialViewController() as? AvatarViewController {
+            navigationController?.pushViewController(nextRegister, animated: true)
+        }
+    }
     /*
     // MARK: - Navigation
 

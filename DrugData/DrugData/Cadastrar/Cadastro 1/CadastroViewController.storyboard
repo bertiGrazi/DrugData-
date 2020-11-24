@@ -74,7 +74,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="PRÓXIMO "/>
                                 <connections>
-                                    <action selector="buttonNextRegister:" destination="hIz-eh-eni" eventType="touchUpInside" id="mXH-mh-cby"/>
+                                    <action selector="buttonNextRegister:" destination="hIz-eh-eni" eventType="touchUpInside" id="nYW-c4-cBW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="byG-n9-X8Q">

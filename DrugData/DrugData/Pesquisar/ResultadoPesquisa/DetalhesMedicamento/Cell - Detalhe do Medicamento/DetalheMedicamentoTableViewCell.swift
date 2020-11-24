@@ -15,6 +15,8 @@ class DetalheMedicamentoTableViewCell: UITableViewCell {
     @IBOutlet weak var labelPreco: UILabel!
     @IBOutlet weak var imageViewMedicine: UIImageView!
     
+  
+    
     func setup(details: Remedios) {
         labelNameMedice.text = details.name
         labelNameLaboratory.text = details.nameLaboratory
@@ -24,13 +26,13 @@ class DetalheMedicamentoTableViewCell: UITableViewCell {
     }
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+      
     }
-
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
     }
 
-}
+ }
+

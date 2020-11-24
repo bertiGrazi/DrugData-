@@ -60,6 +60,24 @@
 		F2E745D2256C4B800031D731 /* data.png in Resources */ = {isa = PBXBuildFile; fileRef = F2E745D1256C4B800031D731 /* data.png */; };
 		F2E745DA256C54E80031D731 /* DetalhesMedicamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E745D9256C54E80031D731 /* DetalhesMedicamentoViewController.swift */; };
 		F2E745DF256C578C0031D731 /* remedio.png in Resources */ = {isa = PBXBuildFile; fileRef = F2E745DE256C578B0031D731 /* remedio.png */; };
+		F2ED9EDE256D4EDD00D015AF /* AvatarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ED9EDD256D4EDD00D015AF /* AvatarViewController.swift */; };
+		F2ED9EE7256D4EFB00D015AF /* AvatarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2ED9EE6256D4EFB00D015AF /* AvatarViewController.storyboard */; };
+		F2ED9EEF256D54BB00D015AF /* profileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ED9EEE256D54BB00D015AF /* profileImage.swift */; };
+		F2ED9EF9256D55EC00D015AF /* 011-woman.png in Resources */ = {isa = PBXBuildFile; fileRef = F2ED9EF3256D55EB00D015AF /* 011-woman.png */; };
+		F2ED9EFA256D55EC00D015AF /* 032-woman.png in Resources */ = {isa = PBXBuildFile; fileRef = F2ED9EF4256D55EB00D015AF /* 032-woman.png */; };
+		F2ED9EFB256D55EC00D015AF /* 027-woman.png in Resources */ = {isa = PBXBuildFile; fileRef = F2ED9EF5256D55EC00D015AF /* 027-woman.png */; };
+		F2ED9EFC256D55EC00D015AF /* 017-woman.png in Resources */ = {isa = PBXBuildFile; fileRef = F2ED9EF6256D55EC00D015AF /* 017-woman.png */; };
+		F2ED9EFD256D55EC00D015AF /* 029-woman.png in Resources */ = {isa = PBXBuildFile; fileRef = F2ED9EF7256D55EC00D015AF /* 029-woman.png */; };
+		F2ED9EFE256D55EC00D015AF /* 012-woman.png in Resources */ = {isa = PBXBuildFile; fileRef = F2ED9EF8256D55EC00D015AF /* 012-woman.png */; };
+		F2ED9F04256D566300D015AF /* AvatarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ED9F03256D566300D015AF /* AvatarCollectionViewCell.swift */; };
+		F2ED9F0C256D69BE00D015AF /* ProfileImageWoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ED9F0B256D69BE00D015AF /* ProfileImageWoman.swift */; };
+		F2ED9F16256D6B1200D015AF /* 025-man.png in Resources */ = {isa = PBXBuildFile; fileRef = F2ED9F10256D6B1000D015AF /* 025-man.png */; };
+		F2ED9F17256D6B1200D015AF /* 037-man.png in Resources */ = {isa = PBXBuildFile; fileRef = F2ED9F11256D6B1100D015AF /* 037-man.png */; };
+		F2ED9F18256D6B1200D015AF /* 036-man.png in Resources */ = {isa = PBXBuildFile; fileRef = F2ED9F12256D6B1100D015AF /* 036-man.png */; };
+		F2ED9F19256D6B1200D015AF /* 035-man.png in Resources */ = {isa = PBXBuildFile; fileRef = F2ED9F13256D6B1100D015AF /* 035-man.png */; };
+		F2ED9F1A256D6B1200D015AF /* 021-man.png in Resources */ = {isa = PBXBuildFile; fileRef = F2ED9F14256D6B1100D015AF /* 021-man.png */; };
+		F2ED9F1B256D6B1200D015AF /* 009-man.png in Resources */ = {isa = PBXBuildFile; fileRef = F2ED9F15256D6B1200D015AF /* 009-man.png */; };
+		F2ED9F22256D6D8300D015AF /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = F2ED9F21256D6D8300D015AF /* avatar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +157,24 @@
 		F2E745D1256C4B800031D731 /* data.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = data.png; sourceTree = "<group>"; };
 		F2E745D9256C54E80031D731 /* DetalhesMedicamentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesMedicamentoViewController.swift; sourceTree = "<group>"; };
 		F2E745DE256C578B0031D731 /* remedio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remedio.png; sourceTree = "<group>"; };
+		F2ED9EDD256D4EDD00D015AF /* AvatarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarViewController.swift; sourceTree = "<group>"; };
+		F2ED9EE6256D4EFB00D015AF /* AvatarViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AvatarViewController.storyboard; sourceTree = "<group>"; };
+		F2ED9EEE256D54BB00D015AF /* profileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileImage.swift; sourceTree = "<group>"; };
+		F2ED9EF3256D55EB00D015AF /* 011-woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "011-woman.png"; sourceTree = "<group>"; };
+		F2ED9EF4256D55EB00D015AF /* 032-woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "032-woman.png"; sourceTree = "<group>"; };
+		F2ED9EF5256D55EC00D015AF /* 027-woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "027-woman.png"; sourceTree = "<group>"; };
+		F2ED9EF6256D55EC00D015AF /* 017-woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "017-woman.png"; sourceTree = "<group>"; };
+		F2ED9EF7256D55EC00D015AF /* 029-woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "029-woman.png"; sourceTree = "<group>"; };
+		F2ED9EF8256D55EC00D015AF /* 012-woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "012-woman.png"; sourceTree = "<group>"; };
+		F2ED9F03256D566300D015AF /* AvatarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCollectionViewCell.swift; sourceTree = "<group>"; };
+		F2ED9F0B256D69BE00D015AF /* ProfileImageWoman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageWoman.swift; sourceTree = "<group>"; };
+		F2ED9F10256D6B1000D015AF /* 025-man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "025-man.png"; sourceTree = "<group>"; };
+		F2ED9F11256D6B1100D015AF /* 037-man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "037-man.png"; sourceTree = "<group>"; };
+		F2ED9F12256D6B1100D015AF /* 036-man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "036-man.png"; sourceTree = "<group>"; };
+		F2ED9F13256D6B1100D015AF /* 035-man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "035-man.png"; sourceTree = "<group>"; };
+		F2ED9F14256D6B1100D015AF /* 021-man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "021-man.png"; sourceTree = "<group>"; };
+		F2ED9F15256D6B1200D015AF /* 009-man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "009-man.png"; sourceTree = "<group>"; };
+		F2ED9F21256D6D8300D015AF /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +288,8 @@
 				F23C32A42562FFC000F25304 /* Extenssões */,
 				F232BC03256B30BD00460ADF /* Remedios.swift */,
 				F2DBB9742565B5D100A5550E /* Cabecalho.swift */,
+				F2ED9EEE256D54BB00D015AF /* profileImage.swift */,
+				F2ED9F0B256D69BE00D015AF /* ProfileImageWoman.swift */,
 			);
 			path = DrugData;
 			sourceTree = "<group>";
@@ -296,11 +334,13 @@
 		F233D0E32559F47100D5CE2D /* Imagens */ = {
 			isa = PBXGroup;
 			children = (
+				F2ED9F26256D6D8800D015AF /* Imagem Não Definido  */,
+				F2ED9F1F256D6CF400D015AF /* Imagens Homens */,
+				F2ED9F20256D6D0200D015AF /* Imagens Mulher */,
 				F2E745DE256C578B0031D731 /* remedio.png */,
 				F2E745D1256C4B800031D731 /* data.png */,
 				F2E745B2256C3E8E0031D731 /* marker.png */,
 				F2E7459C256C3A220031D731 /* mapa.png */,
-				F2DBB9792565B8AB00A5550E /* 1.png */,
 				F233D0E42559F49100D5CE2D /* logo.png */,
 			);
 			path = Imagens;
@@ -427,6 +467,7 @@
 		F2E282CE255C8CE800460304 /* Cadastrar */ = {
 			isa = PBXGroup;
 			children = (
+				F2ED9EDC256D4EC300D015AF /* Avatar */,
 				F2E74595256C37E70031D731 /* Cadastro 1 */,
 				F2E7458A256C32BD0031D731 /* Cadastrar2 */,
 			);
@@ -458,6 +499,60 @@
 				F2E745C7256C44E60031D731 /* EditarPerfilViewController.storyboard */,
 			);
 			path = "Modal - Editar Perfil ";
+			sourceTree = "<group>";
+		};
+		F2ED9EDC256D4EC300D015AF /* Avatar */ = {
+			isa = PBXGroup;
+			children = (
+				F2ED9F02256D564400D015AF /* Avatar Cell */,
+				F2ED9EDD256D4EDD00D015AF /* AvatarViewController.swift */,
+				F2ED9EE6256D4EFB00D015AF /* AvatarViewController.storyboard */,
+			);
+			path = Avatar;
+			sourceTree = "<group>";
+		};
+		F2ED9F02256D564400D015AF /* Avatar Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F2ED9F03256D566300D015AF /* AvatarCollectionViewCell.swift */,
+			);
+			path = "Avatar Cell";
+			sourceTree = "<group>";
+		};
+		F2ED9F1F256D6CF400D015AF /* Imagens Homens */ = {
+			isa = PBXGroup;
+			children = (
+				F2ED9F15256D6B1200D015AF /* 009-man.png */,
+				F2ED9F14256D6B1100D015AF /* 021-man.png */,
+				F2ED9F10256D6B1000D015AF /* 025-man.png */,
+				F2ED9F13256D6B1100D015AF /* 035-man.png */,
+				F2ED9F12256D6B1100D015AF /* 036-man.png */,
+				F2ED9F11256D6B1100D015AF /* 037-man.png */,
+			);
+			path = "Imagens Homens";
+			sourceTree = "<group>";
+		};
+		F2ED9F20256D6D0200D015AF /* Imagens Mulher */ = {
+			isa = PBXGroup;
+			children = (
+				F2DBB9792565B8AB00A5550E /* 1.png */,
+				F2ED9EF3256D55EB00D015AF /* 011-woman.png */,
+				F2ED9EF8256D55EC00D015AF /* 012-woman.png */,
+				F2ED9EF6256D55EC00D015AF /* 017-woman.png */,
+				F2ED9EF5256D55EC00D015AF /* 027-woman.png */,
+				F2ED9EF7256D55EC00D015AF /* 029-woman.png */,
+				F2ED9EF4256D55EB00D015AF /* 032-woman.png */,
+			);
+			path = "Imagens Mulher";
+			sourceTree = "<group>";
+		};
+		F2ED9F26256D6D8800D015AF /* Imagem Não Definido  */ = {
+			isa = PBXGroup;
+			children = (
+				F2ED9F21256D6D8300D015AF /* avatar.png */,
+			);
+			name = "Imagem Não Definido ";
+			path = "Imagem Não Definido ";
 			sourceTree = "<group>";
 		};
 		F2FF1566255C754D007FAD80 /* Login */ = {
@@ -576,27 +671,41 @@
 				F23C8EF5256AD2A70094FA87 /* ControladosViewController.storyboard in Resources */,
 				F2E282D8255C8DBD00460304 /* CadastroViewController.storyboard in Resources */,
 				F23C8EEE256AD14D0094FA87 /* GenericoViewController.storyboard in Resources */,
+				F2ED9EFC256D55EC00D015AF /* 017-woman.png in Resources */,
 				F2E7459D256C3A220031D731 /* mapa.png in Resources */,
+				F2ED9EFE256D55EC00D015AF /* 012-woman.png in Resources */,
 				F2D2D57F255E0F800025BEF3 /* FavoritosViewController.storyboard in Resources */,
+				F2ED9EFB256D55EC00D015AF /* 027-woman.png in Resources */,
 				F2DF0F6C255C92B600F43B54 /* EsqueceuASenhaViewController.storyboard in Resources */,
+				F2ED9EE7256D4EFB00D015AF /* AvatarViewController.storyboard in Resources */,
+				F2ED9EFD256D55EC00D015AF /* 029-woman.png in Resources */,
 				F2E745DF256C578C0031D731 /* remedio.png in Resources */,
 				F233D0E52559F49100D5CE2D /* logo.png in Resources */,
 				F233D0B02559E99900D5CE2D /* LaunchScreen.storyboard in Resources */,
+				F2ED9EFA256D55EC00D015AF /* 032-woman.png in Resources */,
 				F247408425670F0B00D18DE0 /* ControladosGeralTableViewCell.xib in Resources */,
 				F2D2D571255E0C420025BEF3 /* CategoriaViewController.storyboard in Resources */,
 				F2E745D2256C4B800031D731 /* data.png in Resources */,
 				F2DBB97A2565B8AB00A5550E /* 1.png in Resources */,
+				F2ED9F19256D6B1200D015AF /* 035-man.png in Resources */,
 				F232BC21256B382100460ADF /* DetalhesMedicamentoViewController.storyboard in Resources */,
 				F2D2D563255E08280025BEF3 /* PesquisarViewController.storyboard in Resources */,
 				F2E745C8256C44E60031D731 /* EditarPerfilViewController.storyboard in Resources */,
 				F247408925670FF400D18DE0 /* PesquisaLaboratorioViewController.storyboard in Resources */,
+				F2ED9F18256D6B1200D015AF /* 036-man.png in Resources */,
 				F2E74591256C32F80031D731 /* Cadastro2ViewController.storyboard in Resources */,
+				F2ED9F17256D6B1200D015AF /* 037-man.png in Resources */,
 				F233D0AD2559E99900D5CE2D /* Assets.xcassets in Resources */,
+				F2ED9F1B256D6B1200D015AF /* 009-man.png in Resources */,
+				F2ED9EF9256D55EC00D015AF /* 011-woman.png in Resources */,
 				F2E282C0255C89BB00460304 /* LoginViewController.storyboard in Resources */,
 				F232BBFC256B2B7900460ADF /* LocalizacaoViewController.storyboard in Resources */,
 				F23C8EDC256ACFD90094FA87 /* OrganicoViewController.storyboard in Resources */,
 				F23C8F15256ADD240094FA87 /* PerfilViewController.storyboard in Resources */,
+				F2ED9F1A256D6B1200D015AF /* 021-man.png in Resources */,
+				F2ED9F22256D6D8300D015AF /* avatar.png in Resources */,
 				F233D0AB2559E99500D5CE2D /* Main.storyboard in Resources */,
+				F2ED9F16256D6B1200D015AF /* 025-man.png in Resources */,
 				F2E745B3256C3E8E0031D731 /* marker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -632,6 +741,7 @@
 				F2DBB9752565B5D100A5550E /* Cabecalho.swift in Sources */,
 				F2DBB9702565B1BF00A5550E /* CategoriaViewController.swift in Sources */,
 				F2E745C3256C44D60031D731 /* EditarPerfilViewController.swift in Sources */,
+				F2ED9EEF256D54BB00D015AF /* profileImage.swift in Sources */,
 				F23C8EE1256ACFF60094FA87 /* OrganicoViewController.swift in Sources */,
 				F2DF0F64255C92A500F43B54 /* EsqueceuASenhaViewController.swift in Sources */,
 				F23C8EE9256AD13F0094FA87 /* GenericoViewController.swift in Sources */,
@@ -640,9 +750,12 @@
 				F23C8F0D256ADD180094FA87 /* PerfilViewController.swift in Sources */,
 				F2D2D577255E0F510025BEF3 /* FavoritosViewController.swift in Sources */,
 				F2E745DA256C54E80031D731 /* DetalhesMedicamentoViewController.swift in Sources */,
+				F2ED9F04256D566300D015AF /* AvatarCollectionViewCell.swift in Sources */,
+				F2ED9F0C256D69BE00D015AF /* ProfileImageWoman.swift in Sources */,
 				F233D0A42559E99500D5CE2D /* AppDelegate.swift in Sources */,
 				F2E282BB255C882800460304 /* LoginViewController.swift in Sources */,
 				F233D0A62559E99500D5CE2D /* SceneDelegate.swift in Sources */,
+				F2ED9EDE256D4EDD00D015AF /* AvatarViewController.swift in Sources */,
 				F2D2D55B255E08110025BEF3 /* PesquisarViewController.swift in Sources */,
 				F232BC0F256B323900460ADF /* NomeRemediosTableViewCell.swift in Sources */,
 				F23C8EFD256AD2EC0094FA87 /* ControladosViewController.swift in Sources */,

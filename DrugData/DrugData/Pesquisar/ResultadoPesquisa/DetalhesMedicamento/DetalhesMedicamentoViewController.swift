@@ -18,6 +18,7 @@ class DetalhesMedicamentoViewController: UIViewController {
         tableViewDetails.delegate = self
         tableViewDetails.dataSource = self
         
+        arrayMed.append(Remedios(name: "Remédio: Coristina D", nameLaboratory: "Laboratório: COSMED S.A", nameCategory: "Categoria: ANTIGRIPAL ", preco: "Preço: R$ 17, 24"))
     }
     
 }
@@ -31,7 +32,7 @@ extension DetalhesMedicamentoViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "DetalheMedicamentoTableViewCell", for: indexPath) as! DetalheMedicamentoTableViewCell
-        
+        cell.setup(details: arrayMed[indexPath.row])
         return cell
     }
     
