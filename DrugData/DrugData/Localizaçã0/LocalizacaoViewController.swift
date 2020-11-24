@@ -27,17 +27,23 @@ class LocalizacaoViewController: UIViewController {
         super.viewDidLoad()
 
         setup(dados: (Cabecalho(name: "Maria", location: "São Paulo - SP", profileImage: "1.png")))
+        
+        let alert = UIAlertController(title: "PERMITIR QUE A DROG DATA UTILIZE A SUA LOCALIZAÇÃO?",
+                                      message: "A sua localização atual será apresentada no mapa  e usada para fornecer a farmácia mais proxima de você. ",
+                                      preferredStyle: .alert)
+      
+        
+        let cancelButton = UIAlertAction(title: "Permitir durante localização", style: .default, handler: nil)
+        let cancelButton0 = UIAlertAction(title: "Permitir uma vez", style: .default, handler: nil)
+        let addButton = UIAlertAction(title: "Não permitir", style: .default)
+        
+        alert.addAction(cancelButton)
+        alert.addAction(cancelButton0)
+        alert.addAction(addButton)
+        
+        present(alert, animated: true, completion: nil)
     }
+}
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}
+   
