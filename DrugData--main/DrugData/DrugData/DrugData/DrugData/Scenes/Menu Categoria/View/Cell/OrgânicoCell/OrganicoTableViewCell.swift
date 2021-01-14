@@ -12,10 +12,17 @@ class OrganicoTableViewCell: UITableViewCell {
     @IBOutlet weak var labelDrugName: UILabel!
     @IBOutlet weak var labelOrganicName: UILabel!
     
-    func setup(name: Categoria){
+    /*func setup(name: Categoria){
         self.labelDrugName.text = name.produto
         self.labelOrganicName.text = name.organico
-    }
+    }*/
+    func setup(name: Categoria) -> Void {
+            if (name.generico == "Biologicos" || name.generico == "Biologico" ){
+                self.labelDrugName.text = name.produto
+                self.labelOrganicName.text = name.generico
+            }
+
+        }
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

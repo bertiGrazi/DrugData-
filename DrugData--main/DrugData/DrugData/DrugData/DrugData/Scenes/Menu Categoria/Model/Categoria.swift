@@ -20,7 +20,7 @@ class Categoria {
         
         self.produto = json["PRODUTO"].stringValue
         self.laboratorio = json["LABORATORIO"].stringValue
-        self.generico = json["APRESENTACAO"].stringValue
+        self.generico = json["TIPO DE PRODUTO "].stringValue
         self.controlados = json["TARJA"].stringValue
         self.organico = json["CLASSE TERAPEUTICA"].stringValue
             
