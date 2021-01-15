@@ -17,6 +17,7 @@
 		E3DBB91A256E0E9D00A1869B /* ControladosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DBB919256E0E9D00A1869B /* ControladosTableViewCell.swift */; };
 		E3DBB91F256E11B400A1869B /* OrganicoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DBB91E256E11B400A1869B /* OrganicoTableViewCell.swift */; };
 		EE051C3924FC2C75D6161822 /* Pods_DrugDataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE2A49EE04C00DF77B0AE62 /* Pods_DrugDataTests.framework */; };
+		F206AECF25B1C05000FDE97A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F206AECE25B1C04F00FDE97A /* GoogleService-Info.plist */; };
 		F207766F25A8A00200326400 /* Categoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = F207766E25A8A00200326400 /* Categoria.swift */; };
 		F207767425A8A08700326400 /* CategoriaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F207767325A8A08700326400 /* CategoriaViewModel.swift */; };
 		F232BBF4256B2B6B00460ADF /* LocalizacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F232BBF3256B2B6B00460ADF /* LocalizacaoViewController.swift */; };
@@ -102,6 +103,7 @@
 		E3DBB914256E088900A1869B /* GenericoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericoTableViewCell.swift; sourceTree = "<group>"; };
 		E3DBB919256E0E9D00A1869B /* ControladosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControladosTableViewCell.swift; sourceTree = "<group>"; };
 		E3DBB91E256E11B400A1869B /* OrganicoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganicoTableViewCell.swift; sourceTree = "<group>"; };
+		F206AECE25B1C04F00FDE97A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F207766E25A8A00200326400 /* Categoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoria.swift; sourceTree = "<group>"; };
 		F207767325A8A08700326400 /* CategoriaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaViewModel.swift; sourceTree = "<group>"; };
 		F232BBF3256B2B6B00460ADF /* LocalizacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizacaoViewController.swift; sourceTree = "<group>"; };
@@ -225,7 +227,7 @@
 			path = Class;
 			sourceTree = "<group>";
 		};
-		F232BBF2256B2B4900460ADF /* Localização */ = {
+		F232BBF2256B2B4900460ADF /* Localização */ = {
 			isa = PBXGroup;
 			children = (
 				F2F5F44D258A574900E693EB /* Model */,
@@ -293,6 +295,7 @@
 				F233D0AE2559E99900D5CE2D /* LaunchScreen.storyboard */,
 				F233D0A32559E99500D5CE2D /* AppDelegate.swift */,
 				F233D0B12559E99900D5CE2D /* Info.plist */,
+				F206AECE25B1C04F00FDE97A /* GoogleService-Info.plist */,
 				F2F5F475258A5AF700E693EB /* Scenes */,
 			);
 			path = DrugData;
@@ -316,7 +319,7 @@
 			path = DrugDataUITests;
 			sourceTree = "<group>";
 		};
-		F233D0D62559E9AA00D5CE2D /* Página Inicial  */ = {
+		F233D0D62559E9AA00D5CE2D /* Página Inicial  */ = {
 			isa = PBXGroup;
 			children = (
 				F2F5F3F7258A521F00E693EB /* Model */,
@@ -345,7 +348,7 @@
 			path = ResultadoPesquisa;
 			sourceTree = "<group>";
 		};
-		F23C328A2562F59F00F25304 /* LaboratórioView */ = {
+		F23C328A2562F59F00F25304 /* LaboratórioView */ = {
 			isa = PBXGroup;
 			children = (
 				F23C329F2562FCCF00F25304 /* PesquisaLaboratorioViewController.swift */,
@@ -355,7 +358,7 @@
 			path = "Laboratório";
 			sourceTree = "<group>";
 		};
-		F23C8ECF256ACF330094FA87 /* OrgânicoView */ = {
+		F23C8ECF256ACF330094FA87 /* OrgânicoView */ = {
 			isa = PBXGroup;
 			children = (
 				F23C8EDB256ACFD90094FA87 /* OrganicoViewController.storyboard */,
@@ -365,7 +368,7 @@
 			path = "Orgânico";
 			sourceTree = "<group>";
 		};
-		F23C8ED1256ACF4F0094FA87 /* GenéricoView */ = {
+		F23C8ED1256ACF4F0094FA87 /* GenéricoView */ = {
 			isa = PBXGroup;
 			children = (
 				F23C8EE8256AD13F0094FA87 /* GenericoViewController.swift */,
@@ -420,9 +423,9 @@
 			isa = PBXGroup;
 			children = (
 				F23C8EF3256AD28E0094FA87 /* ControladosView */,
-				F23C8ED1256ACF4F0094FA87 /* GenéricoView */,
-				F23C8ECF256ACF330094FA87 /* OrgânicoView */,
-				F23C328A2562F59F00F25304 /* LaboratórioView */,
+				F23C8ED1256ACF4F0094FA87 /* GenéricoView */,
+				F23C8ECF256ACF330094FA87 /* OrgânicoView */,
+				F23C328A2562F59F00F25304 /* LaboratórioView */,
 			);
 			path = ResultadoCategorias;
 			sourceTree = "<group>";
@@ -705,9 +708,9 @@
 			isa = PBXGroup;
 			children = (
 				F2F5F441258A56F100E693EB /* ControladosCell */,
-				F2F5F440258A56A900E693EB /* GenéricoCell */,
-				F2F5F43F258A569200E693EB /* OrgânicoCell */,
-				F2F5F438258A563B00E693EB /* LaboratórioCell */,
+				F2F5F440258A56A900E693EB /* GenéricoCell */,
+				F2F5F43F258A569200E693EB /* OrgânicoCell */,
+				F2F5F438258A563B00E693EB /* LaboratórioCell */,
 				F247408D2567100500D18DE0 /* MenuCategoriaCell.Xib */,
 			);
 			path = Cell;
@@ -722,7 +725,7 @@
 			path = CategoriaView;
 			sourceTree = "<group>";
 		};
-		F2F5F438258A563B00E693EB /* LaboratórioCell */ = {
+		F2F5F438258A563B00E693EB /* LaboratórioCell */ = {
 			isa = PBXGroup;
 			children = (
 				E3DBB90F256E04D500A1869B /* LaboratorioTableViewCell.swift */,
@@ -731,7 +734,7 @@
 			path = "LaboratórioCell";
 			sourceTree = "<group>";
 		};
-		F2F5F43F258A569200E693EB /* OrgânicoCell */ = {
+		F2F5F43F258A569200E693EB /* OrgânicoCell */ = {
 			isa = PBXGroup;
 			children = (
 				E3DBB91E256E11B400A1869B /* OrganicoTableViewCell.swift */,
@@ -740,7 +743,7 @@
 			path = "OrgânicoCell";
 			sourceTree = "<group>";
 		};
-		F2F5F440258A56A900E693EB /* GenéricoCell */ = {
+		F2F5F440258A56A900E693EB /* GenéricoCell */ = {
 			isa = PBXGroup;
 			children = (
 				E3DBB914256E088900A1869B /* GenericoTableViewCell.swift */,
@@ -816,7 +819,7 @@
 			isa = PBXGroup;
 			children = (
 				E3DBB8F2256DD63200A1869B /* Class */,
-				F233D0D62559E9AA00D5CE2D /* Página Inicial  */,
+				F233D0D62559E9AA00D5CE2D /* Página Inicial  */,
 				F2FF1566255C754D007FAD80 /* Login */,
 				F2DF0F62255C926600F43B54 /* Esqueceu a senha */,
 				F2E282CE255C8CE800460304 /* Cadastrar */,
@@ -826,7 +829,7 @@
 				F23C327F2562F45900F25304 /* ResultadoPesquisa */,
 				F2D2D567255E0C020025BEF3 /* Menu Categoria */,
 				F2D2D575255E0F330025BEF3 /* Favoritos */,
-				F232BBF2256B2B4900460ADF /* Localização */,
+				F232BBF2256B2B4900460ADF /* Localização */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -853,6 +856,7 @@
 				F233D09D2559E99500D5CE2D /* Frameworks */,
 				F233D09E2559E99500D5CE2D /* Resources */,
 				6C7871A7CE3A90110AF37FBE /* [CP] Embed Pods Frameworks */,
+				921B541402F32DA22C7A6C76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -891,6 +895,7 @@
 				F233D0BE2559E99900D5CE2D /* Frameworks */,
 				F233D0BF2559E99900D5CE2D /* Resources */,
 				5CA7B3D14FECCBA8FB8FF368 /* [CP] Embed Pods Frameworks */,
+				115E451547C195FCF3B3EF5D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -951,6 +956,7 @@
 			files = (
 				F23C32812562F47700F25304 /* ResultadoPesquisaViewController.storyboard in Resources */,
 				F23C8EF5256AD2A70094FA87 /* ControladosViewController.storyboard in Resources */,
+				F206AECF25B1C05000FDE97A /* GoogleService-Info.plist in Resources */,
 				F2E2C927258BE94700FF0982 /* drug01.png in Resources */,
 				F2E282D8255C8DBD00460304 /* CadastroViewController.storyboard in Resources */,
 				F23C8EEE256AD14D0094FA87 /* GenericoViewController.storyboard in Resources */,
@@ -993,6 +999,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		115E451547C195FCF3B3EF5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrugData-DrugDataUITests/Pods-DrugData-DrugDataUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrugData-DrugDataUITests/Pods-DrugData-DrugDataUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DrugData-DrugDataUITests/Pods-DrugData-DrugDataUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3E5982866E7BBA426B35C9E5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1047,6 +1070,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DrugData/Pods-DrugData-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		921B541402F32DA22C7A6C76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrugData/Pods-DrugData-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrugData/Pods-DrugData-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DrugData/Pods-DrugData-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9EC70020DDEA3C703736DE04 /* [CP] Check Pods Manifest.lock */ = {
