@@ -7,12 +7,15 @@
 
 import UIKit
 import Firebase
+import GoogleSignIn
 
 
 class LoginViewController: UIViewController {
     
+    // MARK: @IBOutlet
     @IBOutlet weak var textFieldEmail: UITextField!
     @IBOutlet weak var textFieldPassword: UITextField!
+    @IBOutlet weak var signInButton: GIDSignInButton!
     
     @IBAction func buttonForgotPassword(_ sender: Any) {
         if let forgotPassword = UIStoryboard(name: "EsqueceuASenhaViewController", bundle: nil).instantiateInitialViewController() as? EsqueceuASenhaViewController {
@@ -24,17 +27,56 @@ class LoginViewController: UIViewController {
             UIViewController.replaceRootViewController(viewController: tabBarController)
         }
     }
+    
     @IBAction func buttonEmail(_ sender: Any) {
     }
     @IBAction func buttonPassword(_ sender: Any) {
     }
+    
+//    @IBAction func buttonLoginGoogle(_ sender: Any) {
+//        
+//    }
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        GIDSignIn.sharedInstance()?.presentingViewController = self
+        GIDSignIn.sharedInstance().signIn()
+        
     }
+    
+    
+    // MARK: Métodos
+//    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+//        
+//        print("User email: \(user.profile.email ?? "No Email")")
+//        if let error = error {
+//            print("\(error)")
+//            return
+//          }
+//
+//          guard let authentication = user.authentication else { return }
+//          let credential = GoogleAuthProvider.credential(withIDToken: authentication.idToken,
+//                                                            accessToken: authentication.accessToken)
+//        
+//        
+//        Auth.auth().signIn(with: credential) { (authResult, error) in
+//          if let error = error {
+//            let authError = error as NSError
+//
+//            // ...
+//            return
+//          }
+//          // User is signed in
+//      
+//           
+//            
+//        }
+//        
+//       
+//    }
+    
    
 }
+
 extension UIViewController {
     class func replaceRootViewController(viewController: UIViewController) {
         guard let window = UIApplication.shared.windows.filter({ $0.isKeyWindow }).first

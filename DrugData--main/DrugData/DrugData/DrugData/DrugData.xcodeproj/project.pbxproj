@@ -227,7 +227,7 @@
 			path = Class;
 			sourceTree = "<group>";
 		};
-		F232BBF2256B2B4900460ADF /* Localização */ = {
+		F232BBF2256B2B4900460ADF /* Localização */ = {
 			isa = PBXGroup;
 			children = (
 				F2F5F44D258A574900E693EB /* Model */,
@@ -319,7 +319,7 @@
 			path = DrugDataUITests;
 			sourceTree = "<group>";
 		};
-		F233D0D62559E9AA00D5CE2D /* Página Inicial  */ = {
+		F233D0D62559E9AA00D5CE2D /* Página Inicial  */ = {
 			isa = PBXGroup;
 			children = (
 				F2F5F3F7258A521F00E693EB /* Model */,
@@ -348,7 +348,7 @@
 			path = ResultadoPesquisa;
 			sourceTree = "<group>";
 		};
-		F23C328A2562F59F00F25304 /* LaboratórioView */ = {
+		F23C328A2562F59F00F25304 /* LaboratórioView */ = {
 			isa = PBXGroup;
 			children = (
 				F23C329F2562FCCF00F25304 /* PesquisaLaboratorioViewController.swift */,
@@ -358,7 +358,7 @@
 			path = "Laboratório";
 			sourceTree = "<group>";
 		};
-		F23C8ECF256ACF330094FA87 /* OrgânicoView */ = {
+		F23C8ECF256ACF330094FA87 /* OrgânicoView */ = {
 			isa = PBXGroup;
 			children = (
 				F23C8EDB256ACFD90094FA87 /* OrganicoViewController.storyboard */,
@@ -368,7 +368,7 @@
 			path = "Orgânico";
 			sourceTree = "<group>";
 		};
-		F23C8ED1256ACF4F0094FA87 /* GenéricoView */ = {
+		F23C8ED1256ACF4F0094FA87 /* GenéricoView */ = {
 			isa = PBXGroup;
 			children = (
 				F23C8EE8256AD13F0094FA87 /* GenericoViewController.swift */,
@@ -423,9 +423,9 @@
 			isa = PBXGroup;
 			children = (
 				F23C8EF3256AD28E0094FA87 /* ControladosView */,
-				F23C8ED1256ACF4F0094FA87 /* GenéricoView */,
-				F23C8ECF256ACF330094FA87 /* OrgânicoView */,
-				F23C328A2562F59F00F25304 /* LaboratórioView */,
+				F23C8ED1256ACF4F0094FA87 /* GenéricoView */,
+				F23C8ECF256ACF330094FA87 /* OrgânicoView */,
+				F23C328A2562F59F00F25304 /* LaboratórioView */,
 			);
 			path = ResultadoCategorias;
 			sourceTree = "<group>";
@@ -708,9 +708,9 @@
 			isa = PBXGroup;
 			children = (
 				F2F5F441258A56F100E693EB /* ControladosCell */,
-				F2F5F440258A56A900E693EB /* GenéricoCell */,
-				F2F5F43F258A569200E693EB /* OrgânicoCell */,
-				F2F5F438258A563B00E693EB /* LaboratórioCell */,
+				F2F5F440258A56A900E693EB /* GenéricoCell */,
+				F2F5F43F258A569200E693EB /* OrgânicoCell */,
+				F2F5F438258A563B00E693EB /* LaboratórioCell */,
 				F247408D2567100500D18DE0 /* MenuCategoriaCell.Xib */,
 			);
 			path = Cell;
@@ -725,7 +725,7 @@
 			path = CategoriaView;
 			sourceTree = "<group>";
 		};
-		F2F5F438258A563B00E693EB /* LaboratórioCell */ = {
+		F2F5F438258A563B00E693EB /* LaboratórioCell */ = {
 			isa = PBXGroup;
 			children = (
 				E3DBB90F256E04D500A1869B /* LaboratorioTableViewCell.swift */,
@@ -734,7 +734,7 @@
 			path = "LaboratórioCell";
 			sourceTree = "<group>";
 		};
-		F2F5F43F258A569200E693EB /* OrgânicoCell */ = {
+		F2F5F43F258A569200E693EB /* OrgânicoCell */ = {
 			isa = PBXGroup;
 			children = (
 				E3DBB91E256E11B400A1869B /* OrganicoTableViewCell.swift */,
@@ -743,7 +743,7 @@
 			path = "OrgânicoCell";
 			sourceTree = "<group>";
 		};
-		F2F5F440258A56A900E693EB /* GenéricoCell */ = {
+		F2F5F440258A56A900E693EB /* GenéricoCell */ = {
 			isa = PBXGroup;
 			children = (
 				E3DBB914256E088900A1869B /* GenericoTableViewCell.swift */,
@@ -819,7 +819,7 @@
 			isa = PBXGroup;
 			children = (
 				E3DBB8F2256DD63200A1869B /* Class */,
-				F233D0D62559E9AA00D5CE2D /* Página Inicial  */,
+				F233D0D62559E9AA00D5CE2D /* Página Inicial  */,
 				F2FF1566255C754D007FAD80 /* Login */,
 				F2DF0F62255C926600F43B54 /* Esqueceu a senha */,
 				F2E282CE255C8CE800460304 /* Cadastrar */,
@@ -829,7 +829,7 @@
 				F23C327F2562F45900F25304 /* ResultadoPesquisa */,
 				F2D2D567255E0C020025BEF3 /* Menu Categoria */,
 				F2D2D575255E0F330025BEF3 /* Favoritos */,
-				F232BBF2256B2B4900460ADF /* Localização */,
+				F232BBF2256B2B4900460ADF /* Localização */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
