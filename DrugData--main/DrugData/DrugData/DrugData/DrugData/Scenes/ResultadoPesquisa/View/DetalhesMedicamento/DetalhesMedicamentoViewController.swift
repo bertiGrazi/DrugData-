@@ -20,7 +20,7 @@ class DetalhesMedicamentoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.imageView.image = UIImage(named: "remedio.png")
-        self.nameDrug.text = drugDetail!.name
+        self.nameDrug.text = "Preço: R$\(drugDetail!.name)"
         self.laboratoryName.text = "Laboratório: \(drugDetail!.nameLaboratory)"
         self.categoryDrug.text = "Categoria: \(drugDetail!.nameCategory)"
         self.priceDrug.text! = "Preço: R$\(drugDetail!.preco)"

@@ -8,24 +8,19 @@
 import UIKit
 
 
+
 class ResultadoPesquisaViewController: UIViewController {
 
+    // MARK: IBOutlet
     @IBOutlet weak var labelName: UILabel!
     @IBOutlet weak var labelLocation: UILabel!
     @IBOutlet weak var imageViewAvatar: UIImageView!
     @IBOutlet weak var tableViewResult: UITableView!
     
+    // MARK: Atributos
     var searchTerm: String = ""
     var array = [Cabecalho] ()
     //var arrayMedice = [Remedios] ()
-    
-    func setup(dados: Cabecalho) {
-        labelName.text = dados.name
-        labelLocation.text = dados.location
-        imageViewAvatar.image = UIImage(named: "1.png")
-        
-    }
-    
     var resultadoPesquisaViewModel: ResultadoPesquisaViewModel?
     
     override func viewDidLoad() {
@@ -41,6 +36,14 @@ class ResultadoPesquisaViewController: UIViewController {
         loadBrandData()
     }
     
+    // MARK: Métodos
+    func setup(dados: Cabecalho) {
+        labelName.text = dados.name
+        labelLocation.text = dados.location
+        imageViewAvatar.image = UIImage(named: "1.png")
+        
+    }
+    
     func loadBrandData() {
         resultadoPesquisaViewModel?.loadBrandAPI(completion: {  (sucess, error) in
                    if sucess {
@@ -53,6 +56,8 @@ class ResultadoPesquisaViewController: UIViewController {
     
 
 }
+
+    // MARK: Extensions
 extension ResultadoPesquisaViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let medicineDetails = UIStoryboard(name: "DetalhesMedicamentoViewController", bundle: nil).instantiateInitialViewController() as? DetalhesMedicamentoViewController {

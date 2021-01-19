@@ -70,6 +70,7 @@
 		F2E745C3256C44D60031D731 /* EditarPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E745C2256C44D60031D731 /* EditarPerfilViewController.swift */; };
 		F2E745C8256C44E60031D731 /* EditarPerfilViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E745C7256C44E60031D731 /* EditarPerfilViewController.storyboard */; };
 		F2E745DA256C54E80031D731 /* DetalhesMedicamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E745D9256C54E80031D731 /* DetalhesMedicamentoViewController.swift */; };
+		F2F314F725B7126200D6B5A1 /* Drugs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2F314F425B7126200D6B5A1 /* Drugs.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,6 +165,8 @@
 		F2E745C2256C44D60031D731 /* EditarPerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarPerfilViewController.swift; sourceTree = "<group>"; };
 		F2E745C7256C44E60031D731 /* EditarPerfilViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EditarPerfilViewController.storyboard; sourceTree = "<group>"; };
 		F2E745D9256C54E80031D731 /* DetalhesMedicamentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesMedicamentoViewController.swift; sourceTree = "<group>"; };
+		F2F314F525B7126200D6B5A1 /* Drugs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Drugs.xcdatamodel; sourceTree = "<group>"; };
+		F2F314F625B7126200D6B5A1 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 		FFE2A49EE04C00DF77B0AE62 /* Pods_DrugDataTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrugDataTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -267,6 +270,7 @@
 		F233D0972559E99500D5CE2D = {
 			isa = PBXGroup;
 			children = (
+				F2F314F425B7126200D6B5A1 /* Drugs.xcdatamodeld */,
 				F233D0A22559E99500D5CE2D /* DrugData */,
 				F233D0B92559E99900D5CE2D /* DrugDataTests */,
 				F233D0C42559E99900D5CE2D /* DrugDataUITests */,
@@ -1147,6 +1151,7 @@
 				F232BC2A256B391400460ADF /* DetalheMedicamentoTableViewCell.swift in Sources */,
 				E3DBB91A256E0E9D00A1869B /* ControladosTableViewCell.swift in Sources */,
 				F207766F25A8A00200326400 /* Categoria.swift in Sources */,
+				F2F314F725B7126200D6B5A1 /* Drugs.xcdatamodeld in Sources */,
 				F29BE70625B0B71B0088B274 /* ImagePicker.swift in Sources */,
 				E3DBB910256E04D500A1869B /* LaboratorioTableViewCell.swift in Sources */,
 				F2E282D0255C8DAB00460304 /* CadastroViewController.swift in Sources */,
@@ -1350,6 +1355,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DrugData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1369,6 +1375,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DrugData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1505,6 +1512,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2F314F425B7126200D6B5A1 /* Drugs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2F314F525B7126200D6B5A1 /* Drugs.xcdatamodel */,
+				F2F314F625B7126200D6B5A1 /* CoreData.xcdatamodel */,
+			);
+			currentVersion = F2F314F525B7126200D6B5A1 /* Drugs.xcdatamodel */;
+			path = Drugs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F233D0982559E99500D5CE2D /* Project object */;
 }

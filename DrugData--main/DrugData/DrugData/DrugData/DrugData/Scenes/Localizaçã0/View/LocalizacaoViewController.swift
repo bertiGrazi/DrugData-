@@ -20,7 +20,7 @@ class LocalizacaoViewController: UIViewController {
         labelName.text = dados.name
         labelLocation.text = dados.location
         imageViewAvatar.image = UIImage(named: "1.png")
-        imageViewMap.image = UIImage(named: "mapa.png")
+        //imageViewMap.image = UIImage(named: "mapa.png")
     }
     
     override func viewDidLoad() {
@@ -43,6 +43,9 @@ class LocalizacaoViewController: UIViewController {
         
         present(alert, animated: true, completion: nil)
     }
+    
+    // MARK: Métodos
+    
 }
     
 

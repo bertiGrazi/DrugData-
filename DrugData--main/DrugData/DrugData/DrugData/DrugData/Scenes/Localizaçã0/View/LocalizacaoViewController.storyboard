@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5pM-yn-rAu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5pM-yn-rAu">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -61,9 +61,9 @@
                                 <color key="textColor" red="0.47958846830000001" green="0.44451474470000002" blue="0.75885783449999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dbA-26-6qP">
-                                <rect key="frame" x="0.0" y="408" width="414" height="405"/>
-                            </imageView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="gJF-wa-YUX">
+                                <rect key="frame" x="0.0" y="394" width="414" height="419"/>
+                            </mapView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oSm-oW-Rka"/>
                         <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
@@ -71,11 +71,11 @@
                             <constraint firstItem="Ddu-SO-sP1" firstAttribute="top" secondItem="MLA-ZU-vr0" secondAttribute="top" id="8B8-dx-dLo"/>
                             <constraint firstItem="Ddu-SO-sP1" firstAttribute="leading" secondItem="MLA-ZU-vr0" secondAttribute="leading" id="D7D-L6-Kg4"/>
                             <constraint firstItem="Dtv-8q-2Bg" firstAttribute="top" secondItem="Ddu-SO-sP1" secondAttribute="bottom" constant="19" id="FKa-PX-lkX"/>
+                            <constraint firstItem="gJF-wa-YUX" firstAttribute="leading" secondItem="oSm-oW-Rka" secondAttribute="leading" id="La9-XZ-Tg2"/>
                             <constraint firstAttribute="trailing" secondItem="Ddu-SO-sP1" secondAttribute="trailing" id="LdX-1A-77X"/>
-                            <constraint firstItem="oSm-oW-Rka" firstAttribute="bottom" secondItem="dbA-26-6qP" secondAttribute="bottom" id="nLJ-WY-kBG"/>
-                            <constraint firstItem="dbA-26-6qP" firstAttribute="leading" secondItem="oSm-oW-Rka" secondAttribute="leading" id="oPh-FH-1wh"/>
-                            <constraint firstItem="dbA-26-6qP" firstAttribute="top" secondItem="Dtv-8q-2Bg" secondAttribute="bottom" constant="17" id="pxK-qa-4YN"/>
-                            <constraint firstItem="oSm-oW-Rka" firstAttribute="trailing" secondItem="dbA-26-6qP" secondAttribute="trailing" id="qvh-yQ-Rad"/>
+                            <constraint firstItem="gJF-wa-YUX" firstAttribute="top" secondItem="Dtv-8q-2Bg" secondAttribute="bottom" constant="3" id="kns-j1-Wyp"/>
+                            <constraint firstItem="gJF-wa-YUX" firstAttribute="bottom" secondItem="oSm-oW-Rka" secondAttribute="bottom" id="ljV-4V-SJN"/>
+                            <constraint firstItem="gJF-wa-YUX" firstAttribute="trailing" secondItem="oSm-oW-Rka" secondAttribute="trailing" id="r8H-Fg-im0"/>
                             <constraint firstItem="oSm-oW-Rka" firstAttribute="trailing" secondItem="Dtv-8q-2Bg" secondAttribute="trailing" constant="20" id="sCe-Ah-TA5"/>
                             <constraint firstItem="Dtv-8q-2Bg" firstAttribute="leading" secondItem="oSm-oW-Rka" secondAttribute="leading" constant="20" id="tMu-zb-5E8"/>
                             <constraint firstItem="oSm-oW-Rka" firstAttribute="bottom" secondItem="Ddu-SO-sP1" secondAttribute="bottom" constant="462" id="uNm-YY-dnZ"/>
@@ -85,7 +85,6 @@
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="imageViewAvatar" destination="1Df-PQ-zes" id="wE4-XU-sYM"/>
-                        <outlet property="imageViewMap" destination="dbA-26-6qP" id="jAC-L2-VAG"/>
                         <outlet property="labelLocation" destination="h4g-Do-qjQ" id="BqJ-aH-GAR"/>
                         <outlet property="labelName" destination="jgU-z8-qz9" id="Of5-iq-LQw"/>
                         <outlet property="viewBlue" destination="Ddu-SO-sP1" id="S7O-e2-jiM"/>

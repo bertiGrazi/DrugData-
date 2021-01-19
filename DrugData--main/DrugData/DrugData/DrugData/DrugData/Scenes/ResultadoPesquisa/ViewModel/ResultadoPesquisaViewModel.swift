@@ -9,10 +9,13 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
+
 class ResultadoPesquisaViewModel {
     
+   
     var arrayRemedios = [Remedio] ()
     
+    // MARK: Métodos
     func loadBrandAPI(completion: @escaping (_ result: Bool, _ error: Error?) -> Void) {
                    AF.request("https://raw.githubusercontent.com/paolapagotto/csvtojson/master/medicamentos.json").responseJSON { response in
                        if let arrayDictionary = response.value as? [[String: String]] {
@@ -32,4 +35,5 @@ class ResultadoPesquisaViewModel {
     func numberOfRows() -> Int {
             return arrayRemedios.count
         }
+    
 }
